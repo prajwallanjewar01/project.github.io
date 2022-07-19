@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="IMG/logo.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="cssmain.css">
+  <title>Your's Stationary</title>
+  <style>
+    body {
+      background-color: rgba(0, 0, 0, 0.8);
+
+    }
+
+    .alert {
+      margin-bottom: 0;
+    }
+
+    #conten {
+      background-color: rgba(0, 0, 0, 0.4);
+      color: white;
+    }
+
+    #called {
+      background-color: rgba(0, 0, 0, 0.205);
+      color: white;
+      text-align: center;
+
+    }
+
+    .ball {
+      margin-right: 8px;
+      padding: 37px 0;
+    }
+
+    .ball>img {
+      border: 1px solid white;
+    }
+
+    footer>p {
+      margin-bottom: 0;
+    }
+
+    #called1 {
+      padding-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><img class="background-placeholder" src="IMG/logo.png" width="40px" height="40px"
+        alt="">Your's Shopee.</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Join Us</a>
+        </li>
+
+      </ul>
+
+
+      <form class="form-inline mr-md-3 my-2 my-lg-0">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+          Contact Us
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-center" id="exampleModalLabel">Contact Us</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h3>You can contact us Via</h3>
+              
+                <p><a class="btn btn-outline-primary text-center" href="#" role="button">Facebook</a>
+                  <a class="btn btn-outline-danger text-center" href="#" role="button">G-mail</a>
+                  <a class="btn btn-outline-primary text-center" href="#" role="button">Twitter</a>
+                  <a class="btn btn-outline-danger text-center " href="#" role="button">Linked In</a>
+                </p>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+
+
+    </div>
+  </nav>
+
+  <!-- Alert-Funtion -->
+  <div class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>Best Selling Book is Available!!</strong> You should check.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <!-- Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="IMG/0.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/2.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/3.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="IMG/5.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <div class="container"></div>
+
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb bg-dark ">
+      <li class="breadcrumb-item "><a href="index.html" class="text-light">Your's Shopee</a></li>
+      <li class="breadcrumb-item "><a href="index.html" class="text-light">Home</a></li>
+      <li class="breadcrumb-item text-light active" aria-current="page">Geography</li>
+    </ol>
+  </nav>
+
+  <div class="container mt-4" id="conten">
+    <h1>G E O G R A P H Y </h1>
+    <h2> BOOKS section</h2>
+
+
+    <div class="row mb-2">
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0"><strong>Worl Geography</strong></h3>
+            <div class="mb-1">Majid Husain</div>
+            <p class="card-text mb-auto">5<sup>th</sup> Edition</p>
+            <p class="card-text mb-auto">Price : $ <strong>14.</strong><sub>99</sub></p>
+            <a href="#" class="stretched-link">More</a>
+          </div>
+          <div class="col-auto d-none d-lg-block ball">
+            <img src="IMG/geography1.jpg" class="bd-placeholder-img" width="200" height="250">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0"><strong>W O R L D</strong> <strong>Geography</strong></h3>
+            <div class="mb-1">D R Khullar</div>
+            <p class="card-text mb-auto">For Civil Services</p>
+            <p class="card-text mb-auto">Price : $ <strong>10.</strong><sub>43</sub></p>
+            <a href="#" class="stretched-link">More</a>
+          </div>
+          <div class="col-auto d-none d-lg-block ball">
+            <img src="IMG/geography2.jpg" class="bd-placeholder-img" width="200" height="250">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0"><strong>Geography</strong> of <strong>India</strong></h3>
+            <div class="mb-1">Mazid Hussain</div>
+            <p class="card-text mb-auto">For Civil Services</p>
+            <p class="card-text mb-auto">Price : $ <strong>10.</strong><sub>43</sub></p>
+            <a href="#" class="stretched-link">More</a>
+          </div>
+          <div class="col-auto d-none d-lg-block ball">
+            <img src="IMG/geography3.jpg" class="bd-placeholder-img" width="200" height="250">
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div
+          class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+          <div class="col p-4 d-flex flex-column position-static">
+            <h3 class="mb-0"> <strong>Geography</strong> of <strong>India</strong></h3>
+            <div class="mb-1">Majid Husain</div>
+            <p class="card-text mb-auto">Newest Edition</p>
+            <p class="card-text mb-auto">Price : $ <strong>29.</strong><sub>23</sub></p>
+            <a href="#" class="stretched-link">More</a>
+          </div>
+          <div class="col-auto d-none d-lg-block ball">
+            <img src="IMG/geography4.jpg" class="bd-placeholder-img" width="200" height="250">
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <footer class="blog-footer" id="called">
+    <div class="container-fluid" id="called">
+      <a href="#">Back to top</a>
+    </div>
+    <h2>Your's Shopee</h2>
+    <p>One of the Best Book Store in Your Region</p>
+    <p>We Provide Books, Stationary, Xerox and Book Binding</p>
+    <p id="called">&copy; Copywrite &nbsp;&nbsp;&nbsp; &trade; Trademark</p>
+
+  </footer>
+
+  <footer class="blog-footer" id="called">
+    <div class="container-fluid" id="called"><br>
+      <div class="col-lg-3"></div>
+        <div class="col-lg-3"></div>
+        <div class="col-lg">
+          <img src="IMG/img1.png" class="bd-placeholder-img rounded-circle" width="140" height="140">
+          <h2>PRAJWAL LANJEWAR</h2>
+          <p>Web Developer</p>
+          <p>
+          <p><a class="btn btn-outline-primary" href="https://in.linkedin.com/in/prajwal-lanjewar-1724a819b" role="button" target="_blank">LinkedIn</a>
+            <a class="btn btn-outline-danger" href="mailto:prajwallanjewar0091@gmail.com" role="button" target="_blank">E-mail</a>
+            <a class="btn btn-outline-primary" href="https://twitter.com/PRAJWAL_KK_L?t=HicrEctZFf8vnDR19mK8gw&s=08" role="button" target="_blank">Twitter</a>
+          </p>
+          <p><a class="btn btn-primary" href="#" role="button">More</a></p>
+        <BR></BR>
+    </div>
+  </footer>
+  <script src="jquery.js"></script>
+  <script src="javascriptmain.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
